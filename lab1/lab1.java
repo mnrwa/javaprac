@@ -125,58 +125,69 @@ public class lab1 {
             }
         }
 
-        System.out.println("Простые числа:");
-        for (int i = 0; i < n; i++) {
-            boolean isPrime = true;
-            if (array[i] <= 1) continue;
-            for (int j = 2; j <= Math.sqrt(array[i]); j++) {
-                if (array[i] % j == 0) {
-                    isPrime = false;
-                    break;
-                }
+        System.out.println("\nПростые числа:");
+
+        class Prime{
+            private int number;
+            private boolean flag = true;
+
+            public void setNumber(int number) {
+                this.number = number;
             }
-            if (isPrime) {
+            public boolean isFlag(int num) {
+
+                if (num <= 1)
+                    return false;
+                for (int i = 2; i < num/2; i++) {
+                    if(num % i == 0)
+                        return false;
+                }
+                return true;
+
+            }
+        }
+        Prime prime = new Prime();
+        for (int i = 0; i < array.length; i++) {
+            prime.setNumber(array[i]);
+            if (prime.isFlag(array[i])) {
                 System.out.println(array[i]);
             }
         }
 
         Arrays.sort(array);
-        System.out.println("Числа в порядке возрастания: " + Arrays.toString(array));
-        System.out.println("Числа в порядке убывания: " + Arrays.toString(Arrays.stream(array).boxed()
-                .sorted(Collections.reverseOrder()).mapToInt(Integer::intValue).toArray()));
-
-        Map<Integer, Integer> frequencyMap = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            frequencyMap.put(array[i], frequencyMap.getOrDefault(array[i], 0) + 1);
-        }
-        System.out.println("Числа в порядке убывания частоты встречаемости:");
-        frequencyMap.entrySet().stream()
-                .sorted(Map.Entry.<Integer, Integer>comparingByValue().reversed())
-                .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue() + " раз"));
-
-        System.out.println("Счастливые числа:");
-        for (int i = 0; i < n; i++) {
-            String numStr = String.valueOf(array[i]);
-            if (numStr.length() % 2 == 0) {
-                int halfLength = numStr.length() / 2;
-                int firstHalf = 0, secondHalf = 0;
-                for (int j = 0; j < halfLength; j++) {
-                    firstHalf += numStr.charAt(j) - '0';
-                    secondHalf += numStr.charAt(j + halfLength) - '0';
-                }
-                if (firstHalf == secondHalf) {
-                    System.out.println(array[i]);
-                }
-            }
+        System.out.println("\nОтсортированные числа по возрастанию:");
+        for (int num : array) {
+            System.out.println(num);
         }
 
-        System.out.println("Числа-палиндромы:");
-        for (int i = 0; i < n; i++) {
-            String numStr = String.valueOf(array[i]);
-            if (new StringBuilder(numStr).reverse().toString().equals(numStr)) {
-                System.out.println(array[i]);
-            }
+        System.out.println("\nОтсортированные числа по убыванию:");
+        for (int i = array.length - 1; i >= 0; i--) {
+            System.out.println(array[i]);
         }
+
+        for (int i = 0; i < n; i++) {
+            array[i] = rand.nextInt(1000);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         sc.close();
 

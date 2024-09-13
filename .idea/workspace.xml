@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d98008c-8337-414a-a50a-a72544c42b64" name="Changes" comment=".">
+    <list default="true" id="8d98008c-8337-414a-a50a-a72544c42b64" name="Changes" comment="first lab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/lab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/lab1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/javaprac.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaprac/lab1/lab1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +88,12 @@
       <updated>1726124420196</updated>
       <workItem from="1726124421292" duration="1281000" />
       <workItem from="1726127665904" duration="6714000" />
-      <workItem from="1726153668493" duration="4921000" />
+      <workItem from="1726153668493" duration="5147000" />
+      <workItem from="1726219508121" duration="70000" />
+      <workItem from="1726226716471" duration="24000" />
+      <workItem from="1726226746306" duration="10000" />
+      <workItem from="1726237660944" duration="2029000" />
+      <workItem from="1726239730602" duration="2705000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -90,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726124644836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first lab">
+      <option name="closed" value="true" />
+      <created>1726158835425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726158835425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="first lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="first lab" />
   </component>
 </project>
