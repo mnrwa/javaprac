@@ -8,58 +8,27 @@ import java.util.*;
 public class lab1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        A1 a1 = new A1();
+        a1.a1();
 
-//      System.out.println("Enter your name: ");
-//      String name = sc.next();
-//      System.out.println("Hello "+name);
-//
+        A2 a2 = new A2();
+        a2.a2();
 
-//      number 2
-//      System.out.println("Enter some words: ");
-//      String str = sc.nextLine();
-//      for (int i = str.length() - 1; i >= 0; i--) {
-//          System.out.print(str.charAt(i) + " ");
-//      }
+        A3 a3 = new A3();
+        a3.a3();
 
+        A4 a4 = new A4();
+        a4.a4();
 
-//        number 3
-//        System.out.println("Enter some numbers: ");
-//        int n = sc.nextInt();
-//        Random rand = new Random();
-//
-//        for(int i = 0; i < n; i++){
-//            System.out.print(rand.nextInt(100) + " ");
-//        }
+        A5 a5 = new A5();
+        a5.a5();
 
-        //number 4
-//        System.out.println("Enter your password: ");
-//        String password = sc.nextLine();
-//        String truePassword = "somePassword";
-//
-//        if(password.equals(truePassword))
-//            System.out.println("Your password is correct");
-//        else
-//            System.out.println("Your password is incorrect");
-//
-
-        //number 5
-//        System.out.println("Enter the number : ");
-//        int num = sc.nextInt();
-//        int sum = 0;
-//        int mult = 1;
-//
-//        while (num != 0) {
-//            sum += num % 10;
-//            mult *= num % 10;
-//            num /= 10;
-//        }
-//
-//        System.out.println("The sum is : "+sum + "\n" + "The mult is : "+mult);
-
-        //System.out.println("Баханов Владимир, 12.09.24, 14.09.24");
+        A6 a6 = new A6();
+        a6.a6();
 
 
-//Вариант 2
+
+
         Random rand = new Random();
 
         System.out.println("Введите количество элементов:");
@@ -70,8 +39,11 @@ public class lab1 {
             array[i] = rand.nextInt(1000);
         }
 
+
         int min = array[0];
         int max = array[0];
+
+
 
         List<Integer> divisionOn3Or9 = new ArrayList<>();
         List<Integer> divisionOn5And7 = new ArrayList<>();

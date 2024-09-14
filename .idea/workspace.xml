@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d98008c-8337-414a-a50a-a72544c42b64" name="Changes" comment="first lab">
+    <list default="true" id="8d98008c-8337-414a-a50a-a72544c42b64" name="Changes" comment="update first lab">
+      <change afterPath="$PROJECT_DIR$/lab1/A1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/A3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/A4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/A5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/A6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/a2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/lab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/lab1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/javaprac.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaprac/lab1/lab1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lab1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,7 +96,9 @@
       <workItem from="1726226716471" duration="24000" />
       <workItem from="1726226746306" duration="10000" />
       <workItem from="1726237660944" duration="2029000" />
-      <workItem from="1726239730602" duration="2705000" />
+      <workItem from="1726239730602" duration="3067000" />
+      <workItem from="1726242963664" duration="1592000" />
+      <workItem from="1726276515443" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -111,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726158835425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update first lab">
+      <option name="closed" value="true" />
+      <created>1726242528461</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726242528461</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="first lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="first lab" />
+    <MESSAGE value="update first lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="update first lab" />
   </component>
 </project>
